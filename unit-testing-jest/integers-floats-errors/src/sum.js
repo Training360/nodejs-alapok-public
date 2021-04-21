@@ -1,6 +1,8 @@
-const sum = (a, b) =>
-  Number.isFinite(a) || Number.isFinite(b)
-    ? a + b
-    : new Error('One or more paramter are not a finite number')
+const sum = (a, b) => {
+  if (Number.isFinite(a) && Number.isFinite(b)) {
+    return a + b
+  }
+  throw new Error('One or more paramters are not a finite numbers')
+}
 
 module.exports = sum
