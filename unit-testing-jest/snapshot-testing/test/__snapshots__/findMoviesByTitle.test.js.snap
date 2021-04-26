@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`findMoviesByTitle should be an array of movie objects 1`] = `
+Array [
+  🐬 Flipper,
+]
+`;
