@@ -28,7 +28,3 @@ http.createServer((req, res) => {
 }).listen(port)
 
 console.log(`Server is running at http://127.0.0.1:${port}`)
-
-// http://127.0.0.1 - index.html
-// http://127.0.0.1/about - about.html
-// http://127.0.0.1/contact - contact.html
