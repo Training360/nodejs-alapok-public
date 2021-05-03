@@ -1,108 +1,116 @@
 # A NodeJS alapjai
 
+A videókhoz tartozó kódok - ahol ilyen szerepelt -  külön mappákban megtalálhatók.  
+Az egyes modulokhoz elérhető feladatokat az adott modul mappáján belül az `excercises` mappában találjátok.  
+MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is önellenőrzés céljából.   
+
 ## Leckék és Gyakorló feladatok
 
-### Bevezetés
-Nincs kész:
-1. Big Picture
-2. Miről lesz szó, és miről nem?
-3. A NodeJS koncepciók
-4. A NodeJS arhitectura
-5. A NodeJS előnyök, hátrányok
-6. A NodeJS telepítése
-7. A Nodejs parancssor: REPL
-8. Az npm csomagkezelő alapjai
-9. A package.json fájl felépítése
-10. Szemantikus verziószámozás
-11. Függőségek telepítése, az eslint beállítása
-12. Hasznos npm parancsok
-13. exercises
-### A nodeJS használata
-1. hello-nodejs
+** Bevezető**
+1. A kurzus bemutatása
+2. A NodeJS architektúrája, koncepciók
+3. Előnyök, hátrányok, kik és mire használják
+4. Szükséges programok telepítése, konfigurálása
+5. [Az REPL használata](repl)
+6. Új NodeJS projekt létrehozása
+7. Projektbeállítások - ESLint, Gitignore, a node_modules mappa és a package fájlok
+8. NodeJS fájlok futtatása és saját parancsok létrehozása
+9. A global és a module objektumok
+10. [Feladatok](repl/excercises)
 
-### A NodeJS modul rendszere (commonjs)
-1. global-and-module-objects - A global és a module objektumok
-2. module-object - A NodeJS modul rendszere: default export
-3. named-export-full - A NodeJS modul rendszere: named export
-4. named-export-desctructuring - A NodeJS modul rendszere: named export object desctructuring használatával
-5. private-parts - A NodeJS modul rendszere - privát adatok
-6. exports-vs-module.exports/similarities - module.exports vs exports - hasonlóságok
-7. exports-vs-module.exports/differences - module.exports vs exports - különbségek
-8. object.freeze - Az Object.freeze() használata exportáláskor
-9.  es6-module - Az natív ES modulrendszer használata
-10. exercises
+**[A NodeJS modulrendszere (commonjs)](module-system)**
+1. [Default export](module-system/default-export)
+2. . [Named export](module-system/named-export)
+3. [Named export object desctructuring használatával](module-system/named-export-with-destructuring)
+4. [Privát adatok](module-system/private-parts)
+5. [A module.exports és az exports közötti hasonlóságok](module-system/exports-vs-module.exports-similarities)
+6. [A module.exports és az exports közötti különbségek](module-system/exports-vs-module.exports-differences)
+7. [Az Object.freeze() metódus használata exportáláskor](module-system/object-freeze)
+8. [A natív ES modulrendszer használata](module-system/es-module)
+9. [Feladatok](module-system/excercises)
 
-###  Az fs modul - mappa és fájlműveletek
-1. fs-basic-operation - Alapvető fájl műveletek
-2. fs-other-methods - Egyéb hasznos metódusok
-3. fs-promise - aszinkron fájlműveletek Promise-ok használatával
-4. fs-open-callback - Összetett fájlműveletek, Buffer
-5. fs-open-promise - Összetett fájlműveletek Promise-ok használatával
-6. stream-readable - Stream-ek használata - a Readable Stream
-7. stream-writeable - Stream-ek használata - a Writeable Stream
-8. stream-transform - Stream-ek használata - a Transform Stream
-9. fs-directory-operations - Mappaműveletek
-10. example - Példaalkalmazás - A node_modules mappák rekurzív törlése
-11. exercises
+**[Az FS és a Path modul használata](fs)**
+1. [Fájl beolvasása szinkron művelettel](fs/read-file-methods)
+2. . [Fájl beolvasása aszinkron művelettel](fs/read-file-methods)
+3. [Fájl írása](fs/basic-methods)
+4. [Adatok hozzáfűzése a fájlhoz](fs/basic-methods)
+5. [Metódusok összevonása, refaktorálás](fs/basic-methods-basic-methods-refactor)
+6. [Fájl törlése](fs/other-methods)
+7. [Fájl átnevezése](fs/other-methods)
+8. [Fájl másolása](fs/other-methods)
+9. [Fájl adatainak lekérdezése](fs/other-methods)
+10. [Fájl jogosultságának módosítása](fs/other-methods)
+11. [Több fájlművelet elvégzése](fs/multiple-file-operations)
+12. [Fájlműveletek promise-ok használatával](fs/fs-promise)
+13. [Több fájlművelet elvégzése promise-okkal](fs/multiple-file-operations-with-promises)
+14. [Olvasható adatfolyamok - Readable stream](fs/readable-stream)
+15. [Írható adatfolyamok - Writeable stream](fs/writeable-stream)
+16. [Írható, olvasható, módosítható adatfolyamok - Transform stream](fs/transform-stream)
+17. [Útvonalakkal kapcsolatos hasznos metódusok](path/useful-methods)
+18. [A path resolve(), és join() metódusok használata és a __dirname változó](path/path-resolve-join-dirname)
+19. [Mappaműveletek](fs/directory-operations)
+20. [Feladatok](fs/excercises)
 
-### A path modul - útvonalak kezelése (streamek után)
-1. path/path-methods - Az útvonalakkal kapcsolatos fontosabb metódusok
-2. path/path-join-resolve-dirname - A path.join(), a path.resolve(), és a __dirname közötti összehasonlítása
+**[Az Events modul](events)**
+1.  [Az eseménykibocsájtó (EventEmitter) működésének bemutatása](events/custom-eventemitter)
+2.  [A beépített EventEmitter osztály](events/built-in-eventemitter)
+3.  [Az EventEmitter osztály egyéb hasznos metódusai](events/other-eventemitter-methods)
+4.  [Az EventEmitter osztály használata, FileReader készítése](events/eventemitter-example)
+5.  [Az EventEmitter osztály használata, FileReader használata](events/eventemitter-example)
+6.  [Az EventEmitter osztály kiterjesztése](events/extends-eventemitter)
+7.  [Feladatok](events/excercises)
 
-### Az events modul - eseménykezelés (fs-stream után)
-1. event/custom-event-emitter - Saját eseménykezelő készítése
-2. event/build-in-events-module - A beépített events modul használata
-3. event/other-methods - Egyéb hasznos metódusok
-4. event/example - Esemény vezérelt programozás példa
-5. event/extends-event-emitter - Az EventsEmitter felhasználása saját osztályban
-6. exercises
-### Az os modul - operációs rendszer információk
-1. os/os - Rendszerinformációk lekérdezése
+**[Az OS module](os)**
+1. [Opereációs rendszerrel kapcsolatos adatok lekérdezése](os)
 
-### Egyszerű parancssoros alkalmazás - yargs
-1. yargs/get - Rekordok lekérdezése parancssorból
-2. yargs/find - Rekord keresése id alapján
-3. yargs/create - Új rekord létrehozása
-4. yargs/edit - Rekord szerkesztése
-5. yargs/remove - Rekord törlése
-6. yargs/add-option-factory - Az alkalmazás strukturálása: Option factory 
-7. yargs/add-movies-service - Az alkalmazás strukturálása: MoviesService factory 
-8. yargs/add-api - Az alkalmazás strukturálása: JSON fájl használata, elérése 
-9. yargs/add-config - Az alkalmazás strukturálása: konfigurációs fájl létrehozása 
-10. yargs/unit-testing - A MoviesService tesztelése 
-11. yargs/async-version - Az alkalmazás átalakítása aszinkron verzióra 
-12. exercises
-### Unit tesztelés
-0. Tesztelési alapok
-1. testing/basic - A Jest alapjai
-2. testing/callback - Callback függvények tesztelése
-3. testing/function-mock - Függvények mockolása
-4. testing/promise - Aszinkron függvények tesztelése
-5. testing/stub - Stub adatok használata
-6. testing/snapshot - Snapshot tesztelés
+**[Parancssoros alkalmazás készítése a yargs modul használatával](yargs)** 
+1. Az alkalmazás bemutatása
+2. [A get parancs megírása](yargs/get-command)
+3. [A create parancs megírása](yargs/create-command)
+4. [Az edit parancs megírása](yargs/edit-command)
+5. [Az remove parancs megírása](yargs/remove-command)
+6. [Az alkalmazás struktúrálása - option factory készítése](yargs/option-factory)
+7. [Az alkalmazás struktúrálása - movies service készítése](yargs/movie-service)
+8. [Az alkalmazás struktúrálása - paraméterátadás objektumok átalakításával](yargs/parameter-destructuring)
+9. [Az alkalmazás struktúrálása - movies api készítése](yargs/movies-api)
+10. [Az alkalmazás struktúrálása - adatok mentése fájlba](yargs/write-database-file)
+11. [Az alkalmazás struktúrálása - konfigurációs állomány használata](yargs/add-config)
+12. [Feladatok](yargs/excercises)
 
-### Az http modul - webszerver készítése
-1. http/basic-http-server - Egyszerű webszerver készítése
-2. http/server-send-html - HTML fájlok kiszolgálása
-3. http/server-send-stream - Streamek használata a http válasznál 
-4. http/templateing - Saját template készítése - adatok írása a html fájlba 
-5. http/templateing-with-stream - Streamek és a tempalte-ezés együttes használata 
-6. http/server-send-json-with-require - JSON típusú válasz küldése
-7. http/server-send-json-with-stream - JSON típusú válasz küldése Stream-el kombinálva
-8. http/server-send-json-with-stream - Adat lekérése id alapján
-9. http/routing-and-views - Útvonalválasztás (Routing)
-10. http/error-page - Hibakezelés (Error handling)
-11. http/route-file - Útvonalválasztás saját fájlba kiszervezve (Route file)
-12. http/controller - At útvonal és a kérés/válasz kezelésének elszeparálása (Controller)
-13. http/controller - A Nodemon csomag használata
-14. exercises
+**[Egységtesztelés](unit-testing-jest)** 
+- Egységtesztelés és TDD elméleti bevezető
+- [A Jest telepítése, beállítása, az első teszt megírása](unit-testing-jest/integers-floats-errors)
+- A Jest extension és a watchAll kapcsoló
+- [Lebegőpontos értékek tesztelése](unit-testing-jest/integers-floats-errors)
+- [Kivétel tesztelése](unit-testing-jest/integers-floats-errors)
+- Tesztlefedettség
+- [Callback függvények tesztelése](unit-testing-jest/callbacks-and-mocks)
+- [Aszinkron callback függvény tesztelése](unit-testing-jest/async-code-callback)
+- [Promise-ok tesztelése](unit-testing-jest/promises)
+- [Stub - tesztadatok](unit-testing-jest/stub)
+- [Snapshot tesztelés](unit-testing-jest/snapshot-testing)
+- [Parancssoros alkalmazás tesztelése - előkészítés](yargs/unit-testing)
+- [Parancssoros alkalmazás tesztelése - a tesztek megírása](yargs/unit-testing)
 
-### Az url modul
-1. url/url - URL-ek kezelése
+**[A http modul](http)**
+1. [Egyszerű webszerver létrehozása](http/basic-http-server)
+2. [HTML válasz küldése](http/html-response)
+3. [HTML válasz küldése stream használatával](http/html-response-stream)
+4. [Változó behelyettesítése a HTML fájlba - templateing](http/templateing)
+5. [Változó behelyettesítése a HTML fájlba - templateing adatfolyammal](http/templateing-with-stream)
+6. [JSON válasz küldés a require használatával](http/json-response)
+7. [JSON válasz küldés stream használatával](http/json-response-stream)
+8. [Útvonalválasztás](http/routing-and-views)
+9.  [Egyedi hiba oldal készítése](http/error-page)
+10. [Az alkalmazás refaktorálása, route fájl készítése](http//route-file)
+11. [Az alkalmazás refaktorálása, controller írása](http/controller)
+12. [Események, környezeti változók, és a nodemon csomag](http/events-and-env)
+13. [Feladatok](http/excercises)
 
-### Egyéb
-Környezeti változók (http/controller után)
-Debugging
-Publishing
+**Projektzárás**
+- Szemantikus verziószámozás
+- Csomagok frissítése
+- Csomagok auditálása, függőségek kezelése
+- Egyéb hasznos npm parancsok
 
  
