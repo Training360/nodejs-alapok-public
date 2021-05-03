@@ -20,7 +20,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 
 **[A NodeJS modulrendszere (commonjs)](module-system)**
 1. [Default export](module-system/default-export)
-2. . [Named export](module-system/named-export)
+2. [Named export](module-system/named-export)
 3. [Named export object desctructuring használatával](module-system/named-export-with-destructuring)
 4. [Privát adatok](module-system/private-parts)
 5. [A module.exports és az exports közötti hasonlóságok](module-system/exports-vs-module.exports-similarities)
@@ -31,7 +31,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 
 **[Az FS és a Path modul használata](fs)**
 1. [Fájl beolvasása szinkron művelettel](fs/read-file-methods)
-2. . [Fájl beolvasása aszinkron művelettel](fs/read-file-methods)
+2. [Fájl beolvasása aszinkron művelettel](fs/read-file-methods)
 3. [Fájl írása](fs/basic-methods)
 4. [Adatok hozzáfűzése a fájlhoz](fs/basic-methods)
 5. [Metódusok összevonása, refaktorálás](fs/basic-methods-basic-methods-refactor)
@@ -52,13 +52,13 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 20. [Feladatok](fs/excercises)
 
 **[Az Events modul](events)**
-1.  [Az eseménykibocsájtó (EventEmitter) működésének bemutatása](events/custom-eventemitter)
-2.  [A beépített EventEmitter osztály](events/built-in-eventemitter)
-3.  [Az EventEmitter osztály egyéb hasznos metódusai](events/other-eventemitter-methods)
-4.  [Az EventEmitter osztály használata, FileReader készítése](events/eventemitter-example)
-5.  [Az EventEmitter osztály használata, FileReader használata](events/eventemitter-example)
-6.  [Az EventEmitter osztály kiterjesztése](events/extends-eventemitter)
-7.  [Feladatok](events/excercises)
+1. [Az eseménykibocsájtó (EventEmitter) működésének bemutatása](events/custom-eventemitter)
+2. [A beépített EventEmitter osztály](events/built-in-eventemitter)
+3. [Az EventEmitter osztály egyéb hasznos metódusai](events/other-eventemitter-methods)
+4. [Az EventEmitter osztály használata, FileReader készítése](events/eventemitter-example)
+5. [Az EventEmitter osztály használata, FileReader használata](events/eventemitter-example)
+6. [Az EventEmitter osztály kiterjesztése](events/extends-eventemitter)
+7. [Feladatok](events/excercises)
 
 **[Az OS module](os)**
 1. [Opereációs rendszerrel kapcsolatos adatok lekérdezése](os)
@@ -78,19 +78,19 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 12. [Feladatok](yargs/excercises)
 
 **[Egységtesztelés](unit-testing-jest)** 
-- Egységtesztelés és TDD elméleti bevezető
-- [A Jest telepítése, beállítása, az első teszt megírása](unit-testing-jest/integers-floats-errors)
-- A Jest extension és a watchAll kapcsoló
-- [Lebegőpontos értékek tesztelése](unit-testing-jest/integers-floats-errors)
-- [Kivétel tesztelése](unit-testing-jest/integers-floats-errors)
-- Tesztlefedettség
-- [Callback függvények tesztelése](unit-testing-jest/callbacks-and-mocks)
-- [Aszinkron callback függvény tesztelése](unit-testing-jest/async-code-callback)
-- [Promise-ok tesztelése](unit-testing-jest/promises)
-- [Stub - tesztadatok](unit-testing-jest/stub)
-- [Snapshot tesztelés](unit-testing-jest/snapshot-testing)
-- [Parancssoros alkalmazás tesztelése - előkészítés](yargs/unit-testing)
-- [Parancssoros alkalmazás tesztelése - a tesztek megírása](yargs/unit-testing)
+1. Egységtesztelés és TDD elméleti bevezető
+2. [A Jest telepítése, beállítása, az első teszt megírása](unit-testing-jest/integers-floats-errors)
+3. A Jest extension és a watchAll kapcsoló
+4. [Lebegőpontos értékek tesztelése](unit-testing-jest/integers-floats-errors)
+5. [Kivétel tesztelése](unit-testing-jest/integers-floats-errors)
+6. Tesztlefedettség
+7. [Callback függvények tesztelése](unit-testing-jest/callbacks-and-mocks)
+8. [Aszinkron callback függvény tesztelése](unit-testing-jest/async-code-callback)
+9. [Promise-ok tesztelése](unit-testing-jest/promises)
+10. [Stub - tesztadatok](unit-testing-jest/stub)
+11. [Snapshot tesztelés](unit-testing-jest/snapshot-testing)
+12. [Parancssoros alkalmazás tesztelése - előkészítés](yargs/unit-testing)
+13. [Parancssoros alkalmazás tesztelése - a tesztek megírása](yargs/unit-testing)
 
 **[A http modul](http)**
 1. [Egyszerű webszerver létrehozása](http/basic-http-server)
