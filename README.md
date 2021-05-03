@@ -107,10 +107,10 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 12. [Események, környezeti változók, és a nodemon csomag](http/events-and-env)
 13. [Feladatok](http/excercises)
 
-**Projektzárás**
-- Szemantikus verziószámozás
-- Csomagok frissítése
-- Csomagok auditálása, függőségek kezelése
-- Egyéb hasznos npm parancsok
+**Projektzárás és az npm**
+1. Szemantikus verziószámozás
+2. Csomagok frissítése
+3. Csomagok auditálása, függőségek kezelése
+4. Egyéb hasznos npm parancsok
 
  
