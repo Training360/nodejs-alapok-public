@@ -6,7 +6,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 
 ## Leckék és Gyakorló feladatok
 
-** Bevezető**
+**Bevezető**
 1. A kurzus bemutatása
 2. A NodeJS architektúrája, koncepciók
 3. Előnyök, hátrányok, kik és mire használják
