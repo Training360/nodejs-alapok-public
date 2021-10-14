@@ -6,7 +6,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 
 ## Leckék és Gyakorló feladatok
 
-**Bevezető**
+### Bevezető
 1. A kurzus bemutatása
 2. A NodeJS architektúrája, koncepciók
 3. Előnyök, hátrányok, kik és mire használják
@@ -18,7 +18,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 9. A global és a module objektumok
 10. [Feladatok](repl/excercises)
 
-**[A NodeJS modulrendszere (commonjs)](module-system)**
+### [A NodeJS modulrendszere (commonjs)](module-system)
 1. [Default export](module-system/default-export)
 2. [Named export](module-system/named-export)
 3. [Named export object desctructuring használatával](module-system/named-export-with-destructuring)
@@ -29,7 +29,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 8. [A natív ES modulrendszer használata](module-system/es-module)
 9. [Feladatok](module-system/excercises)
 
-**[Az FS és a Path modul használata](fs)**
+### [Az FS és a Path modul használata](fs)
 1. [Fájl beolvasása szinkron művelettel](fs/read-file-methods)
 2. [Fájl beolvasása aszinkron művelettel](fs/read-file-methods)
 3. [Fájl írása](fs/basic-methods)
@@ -51,7 +51,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 19. [Mappaműveletek](fs/directory-operations)
 20. [Feladatok](fs/excercises)
 
-**[Az Events modul](events)**
+### [Az Events modul](events)
 1. [Az eseménykibocsájtó (EventEmitter) működésének bemutatása](events/custom-eventemitter)
 2. [A beépített EventEmitter osztály](events/built-in-eventemitter)
 3. [Az EventEmitter osztály egyéb hasznos metódusai](events/other-eventemitter-methods)
@@ -60,24 +60,24 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 6. [Az EventEmitter osztály kiterjesztése](events/extends-eventemitter)
 7. [Feladatok](events/excercises)
 
-**[Az OS module](os)**
+### [Az OS module](os)
 1. [Opereációs rendszerrel kapcsolatos adatok lekérdezése](os)
 
-**[Parancssoros alkalmazás készítése a yargs modul használatával](yargs)** 
+### [Parancssoros alkalmazás készítése a yargs modul használatával](yargs)
 1. Az alkalmazás bemutatása
 2. [A get parancs megírása](yargs/get-command)
 3. [A create parancs megírása](yargs/create-command)
 4. [Az edit parancs megírása](yargs/edit-command)
 5. [Az remove parancs megírása](yargs/remove-command)
-6. [Az alkalmazás struktúrálása - option factory készítése](yargs/option-factory)
-7. [Az alkalmazás struktúrálása - movies service készítése](yargs/movie-service)
-8. [Az alkalmazás struktúrálása - paraméterátadás objektumok átalakításával](yargs/parameter-destructuring)
-9. [Az alkalmazás struktúrálása - movies api készítése](yargs/movies-api)
-10. [Az alkalmazás struktúrálása - adatok mentése fájlba](yargs/write-database-file)
-11. [Az alkalmazás struktúrálása - konfigurációs állomány használata](yargs/add-config)
+6. [Az alkalmazás strukturálása - option factory készítése](yargs/option-factory)
+7. [Az alkalmazás strukturálása - movies service készítése](yargs/movie-service)
+8. [Az alkalmazás strukturálása - paraméterátadás objektumok átalakításával](yargs/parameter-destructuring)
+9. [Az alkalmazás strukturálása - movies api készítése](yargs/movies-api)
+10. [Az alkalmazás strukturálása - adatok mentése fájlba](yargs/write-database-file)
+11. [Az alkalmazás strukturálása - konfigurációs állomány használata](yargs/add-config)
 12. [Feladatok](yargs/excercises)
 
-**[Egységtesztelés](unit-testing-jest)** 
+### [Egységtesztelés](unit-testing-jest) 
 1. Egységtesztelés és TDD elméleti bevezető
 2. [A Jest telepítése, beállítása, az első teszt megírása](unit-testing-jest/integers-floats-errors)
 3. A Jest extension és a watchAll kapcsoló
@@ -92,7 +92,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 12. [Parancssoros alkalmazás tesztelése - előkészítés](yargs/unit-testing)
 13. [Parancssoros alkalmazás tesztelése - a tesztek megírása](yargs/unit-testing)
 
-**[A http modul](http)**
+### [A http modul](http)
 1. [Egyszerű webszerver létrehozása](http/basic-http-server)
 2. [HTML válasz küldése](http/html-response)
 3. [HTML válasz küldése stream használatával](http/html-response-stream)
@@ -107,7 +107,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 12. [Események, környezeti változók, és a nodemon csomag](http/events-and-env)
 13. [Feladatok](http/excercises)
 
-**Projektzárás és az npm**
+### Projektzárás és az npm
 1. Szemantikus verziószámozás
 2. Csomagok frissítése
 3. Csomagok auditálása, függőségek kezelése
