@@ -61,7 +61,7 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 7. [Feladatok](events/excercises)
 
 ### [Az OS module](os)
-1. [Opereációs rendszerrel kapcsolatos adatok lekérdezése](os)
+1. [Operációs  rendszerrel kapcsolatos adatok lekérdezése](os)
 
 ### [Parancssoros alkalmazás készítése a yargs modul használatával](yargs)
 1. Az alkalmazás bemutatása
@@ -96,8 +96,8 @@ MInden feladathoz a `solution` mappákban megtalálhatóak a megoldások is öne
 1. [Egyszerű webszerver létrehozása](http/basic-http-server)
 2. [HTML válasz küldése](http/html-response)
 3. [HTML válasz küldése stream használatával](http/html-response-stream)
-4. [Változó behelyettesítése a HTML fájlba - templateing](http/templateing)
-5. [Változó behelyettesítése a HTML fájlba - templateing adatfolyammal](http/templateing-with-stream)
+4. [Változó behelyettesítése a HTML fájlba - template-ing](http/templateing)
+5. [Változó behelyettesítése a HTML fájlba - template-ing adatfolyammal](http/templateing-with-stream)
 6. [JSON válasz küldés a require használatával](http/json-response)
 7. [JSON válasz küldés stream használatával](http/json-response-stream)
 8. [Útvonalválasztás](http/routing-and-views)
